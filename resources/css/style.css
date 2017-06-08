@@ -1,14 +1,32 @@
+* {color:white;
+}
+
+header {img src:"resources\images\logo.png"inherit;
+  background-color: black;
+  background-size: 50px 1350px;
+}
+
 #banner {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 250px;
+  height: 300px;
   width: 1350px;
 }
-.content {
-  background-color: : black;
-  height: 50px;
-  width: 60px;
 
+.content {
+  background-color: black;
+  background-size: 20px 30px;
   }
+
+.arrival {
+}
+
+.products{
+  }
+
+.navigation {
+  background-color: red;
+  background-size:50px 1350px;
+}
