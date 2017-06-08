@@ -1,9 +1,15 @@
 * {color:white;
 }
 
-header {img src:"resources\images\logo.png"inherit;
+.header {
+  display: flex;
   background-color: black;
   background-size: 50px 1350px;
+}
+
+header {
+  display: inline-flex;
+  flex-direction: row;
 }
 
 #banner {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
@@ -16,10 +22,16 @@ header {img src:"resources\images\logo.png"inherit;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:: center;
   background-color: black;
   height: 100px;
   width: 200px;
-  }
+  margin-top: 30px;
+  margin-left: 50px;
+}
 
 .arrival {
 }
@@ -33,12 +45,11 @@ header {img src:"resources\images\logo.png"inherit;
   width: 1350px;
   }
 
-nav {
+.navbar {
   display: flex;
+  padding: 10px 0;
 }
 
-ul {
+nav a {
   display: inline-flex;
-  justify-content: space-around;
-  align-content: center;
-}
+  }
