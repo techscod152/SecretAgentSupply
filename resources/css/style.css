@@ -1,6 +1,14 @@
-.bronson{background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-  height: 500px;
-  background-size: 100%;
+#banner {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  display: flex;
+  background-size: cover;
   background-repeat: no-repeat;
-
+  background-position: top center;
+  height: 250px;
+  width: 1350px;
 }
+.content {
+  background-color: : black;
+  height: 50px;
+  width: 60px;
+
+  }
