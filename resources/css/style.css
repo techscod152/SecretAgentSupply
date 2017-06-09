@@ -1,17 +1,26 @@
-* {color:white;
+* {
+  color:white;
+  font-family: "Times New Roman";
 }
 
 .header {
   display: flex;
-  background-color: black;
-  background-size: 50px 1350px;
-}
-
-header {
-  display: inline-flex;
   flex-direction: row;
+  background-color: black;
+  background-size: px 1350px;
+  font-size: 7px;
 }
 
+img {
+  height: 9px;
+  width: 13px;
+}
+
+p {
+  margin: 0 5px;
+  padding: 5px 15px;
+  font-size: 3px;
+}
 #banner {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   display: flex;
   background-size: cover;
@@ -34,22 +43,24 @@ header {
 }
 
 .arrival {
+  font-size: 8px;
 }
 
 .products{
   }
 
 .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: red;
   height:50px;
   width: 1350px;
   }
 
 .navbar {
-  display: flex;
-  padding: 10px 0;
-}
+    }
 
 nav a {
-  display: inline-flex;
-  }
+    text-decoration: none;
+}
