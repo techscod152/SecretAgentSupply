@@ -1,37 +1,70 @@
-* {
-  color:white;
-  font-family: "Times New Roman";
+html {
+  font-size: 18px;
 }
 
+* {
+  color:white;
+  /*font-family: "Times New Roman";*/
+  font-family: "Helvetica", sans-serif;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
 .header {
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   background-color: black;
   background-size: px 1350px;
-  font-size: 7px;
+  font-size: 7px;*/
+  background-color: black;
+  /*background-size: px 1350px;*/
+ /* font-size: 7px;*/
+  padding: .66rem 0 .66rem 0.5rem;
 }
 
-img {
-  height: 9px;
-  width: 13px;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header .container {
+ max-width: 960px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+/*img {
+height: 9px;
+width: 13px;
+}*/
+
+header img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
 
 p {
-  margin: 0 5px;
+  /*margin: 0 5px;
   padding: 5px 15px;
-  font-size: 3px;
+  font-size: 3px;*/
 }
+
 #banner {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-  display: flex;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
-  height: 300px;
-  width: 1350px;
+  /*background-position: top center;*/
+  background-position: center;
+  /*height: 300px;*/
+  height: 25rem;
+  /*width: 1350px;*/
 }
 
 .content {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:: center;
@@ -39,27 +72,45 @@ p {
   height: 100px;
   width: 200px;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 50px;*/
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
 }
 
-.arrival {
-  font-size: 8px;
+.content h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
 }
+
+/*.arrival {
+  font-size: 8px;
+}*/
 
 .products{
   }
 
 .navigation {
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   background-color: red;
   height:50px;
-  width: 1350px;
+  width: 1350px;*/
+  background-color: firebrick;
+  color: white;
   }
 
-.navbar {
-    }
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
 
 nav a {
     text-decoration: none;
