@@ -111,12 +111,12 @@ p {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .middle {
   display: flex;
-  background-color: black;
+  background-color: white;
   align-items: center;
   justify-content: space-around;
   padding: 0.75rem 0;
@@ -124,12 +124,42 @@ a {
 }
 .products {
   display: flex;
+  background-color: white;
 }
 
 .product-image {
+  border: 5px solid black;
+  height: 25rem;
 
 }
 
 .product-image a {
   position: relative;
+}
+
+.business-info {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.location p {
+  background-color: black;
+}
+
+p .biz {
+  color: black;
+  background-color: white;
+}
+
+.hours p {
+  background-color: black;
+}
+
+
+.footer {
+  display: flex;
+  background-color: black;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.75rem 0;
 }
