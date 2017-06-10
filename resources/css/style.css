@@ -138,12 +138,27 @@ a {
 }
 
 .business-info {
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  }
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .location p {
   background-color: black;
+}
+
+.hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 p .biz {
