@@ -115,14 +115,13 @@ a {
 }
 
 .middle {
-  display: flex;
   background-color: white;
   padding: 0.75rem 0;
   flex-direction: row;
 }
 .products {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   background-color: white;
 }
